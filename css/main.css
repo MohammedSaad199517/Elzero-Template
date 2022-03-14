@@ -849,12 +849,12 @@ position: relative;
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
-.testimonials .container .box:nth-child(1)::after{    background-image: url(../Images/avatar-01.png);}
-.testimonials .container .box:nth-child(2)::after{    background-image: url(../Images/avatar-02.png);}
-.testimonials .container .box:nth-child(3)::after{    background-image: url(../Images/avatar-03.png);}
-.testimonials .container .box:nth-child(4)::after{    background-image: url(../Images/avatar-04.png);}
-.testimonials .container .box:nth-child(5)::after{    background-image: url(../Images/avatar-05.png);}
-.testimonials .container .box:nth-child(6)::after{    background-image: url(../Images/avatar-06.png);}
+.testimonials .container .box:nth-child(1)::after{    background-image: url(../images/avatar-01.png);}
+.testimonials .container .box:nth-child(2)::after{    background-image: url(../images/avatar-02.png);}
+.testimonials .container .box:nth-child(3)::after{    background-image: url(../images/avatar-03.png);}
+.testimonials .container .box:nth-child(4)::after{    background-image: url(../images/avatar-04.png);}
+.testimonials .container .box:nth-child(5)::after{    background-image: url(../images/avatar-05.png);}
+.testimonials .container .box:nth-child(6)::after{    background-image: url(../images/avatar-06.png);}
 /* ______________________________________________ */
 .team-members{                          /*start section team-members*/
     padding-top: var(--main-padding-top);
@@ -1268,7 +1268,7 @@ width: calc(100% - 60px);
 .latest-events::before,
 .latest-events::after{
     content:"";
-    background-image: url(../Images/dots.png);
+    background-image: url(../images/dots.png);
     position: absolute;
     width: 198px;
     height: 186px;
@@ -1672,7 +1672,7 @@ width: calc(100% - 60px);
 .stats{                                             /*Start stats section*/
     padding-top: var(--main-padding-top);
     padding-bottom: var(--main-padding-bottom);
-    background-image: url(../Images/stats.jpg);
+    background-image: url(../images/stats.jpg);
     background-size: cover;
     position: relative;
 z-index: 1;
@@ -1757,7 +1757,7 @@ z-index: 1;
 }
 /*______________________________________________________*/
 .discount{
-    background-image: url(../Images/discount-background1.jpg) ;
+    background-image: url(../images/discount-background1.jpg) ;
     background-size:cover;
     z-index: 1;
     position: relative;
