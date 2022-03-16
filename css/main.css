@@ -50,6 +50,28 @@ a{
     color: black;
     text-decoration:none ;
 }
+::-webkit-scrollbar{
+    width: 25px;
+}
+::-webkit-scrollbar-track{
+    background-color:rgb(33, 149, 243, 0.233);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #1876f288;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all var(--main-transition);
+    -webkit-transition: all var(--main-transition);
+    -moz-transition: all var(--main-transition);
+    -ms-transition: all var(--main-transition);
+    -o-transition: all var(--main-transition);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #1877f2;
+}
 /* end globle css code */
 /* start globle components */
 .main-heading{
@@ -164,7 +186,6 @@ a{
 /* ___________ */
 .spike{
     position: relative;
-   
 }
 .spike::after{
     content: "";
@@ -880,7 +901,7 @@ position: relative;
     width:calc(100% - 60px);
     height: 100%;
     background-color: var(--main-color);
-  z-index: -2;
+    z-index: -2;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -1245,7 +1266,7 @@ width: calc(100% - 60px);
 }
 @media (max-width:767px) {
     .how-it-works .container .contents .box .text{
-       text-align: center;  
+    text-align: center;  
     }
     .how-it-works .container .contents .box .image{
         margin-bottom: 20px;
@@ -1385,7 +1406,7 @@ width: calc(100% - 60px);
     height: 100%;
     padding: 15px;
     background-color: var(--second-color);
- border: none;
+    border: none;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -1517,6 +1538,7 @@ width: calc(100% - 60px);
     top: 0%;
     width: 50px;
     height: 146px;
+    clip-path: polygon(100% 0, 100% 100%, 50% 76%, 0% 100%, 0% 0);
     background-color: var(--second-color);
     writing-mode: vertical-rl;
     color: white;
@@ -1524,19 +1546,6 @@ width: calc(100% - 60px);
     font-weight: bold;
     align-items: center;
     padding-top: 10px;
-
-}
-.Pricing .container .box:nth-child(2) .signal::before{
-    content: " ";
-    position: absolute;
-    left: 0%;
-    top: 66%;
-    width: 0;
-    height: 0;
-    border-top: solid 25px transparent;
-    border-bottom: solid 25px #fff;
-    border-left: solid 25px transparent;
-    border-right: solid 25px transparent;
 
 }
 .Pricing .container .box h2{
