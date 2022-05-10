@@ -14,14 +14,15 @@
     <title>Elzero</title>
 </head>
 <body>
+
     <header>     <!-- start header section-->
         <div class="container"> 
                 <a class="Elzero" href="#"> Elzero</a>
                 <nav>
-                    <div class="link"> <a id="a" href="#articles">articles</a></div>
-                    <div class="link"> <a id="a" href="#gallery">gallery</a></div>
-                    <div class="link"> <a id="a" href="#features">features </a></div>
-                    <div class="link"> <a id="a" href="#">other links</a>
+                    <div class="link"> <a class="a" href="#articles">articles</a></div>
+                    <div class="link"> <a class="a" href="#gallery">gallery</a></div>
+                    <div class="link"> <a class="a" href="#features">features </a></div>
+                    <div class="link other" > <a class="a" id="b" onclick="myFunction()" href="#">other links</a>
                                         <div class="links">
                                             <div class="contents_links">
                                             <div class="image">
@@ -553,19 +554,19 @@
         <div class="contents">
             <div class="box" >
                 <h2>Html</h2>
-                <div data-progress="80%"><span style="width: 80%;" ></span></div>
+                <div class="skill" ><span data-progress="80%" ></span></div>
             </div>
             <div class="box" >
                 <h2>css</h2>
-                <div data-progress="85%"><span style="width: 85%;" ></span></div>
+                <div class="skill" ><span data-progress="85%" ></span></div>
             </div>
             <div class="box" >
                 <h2>javascript</h2>
-                <div data-progress="70%"><span style="width: 70%;" ></span></div>
+                <div class="skill" ><span data-progress="70%"></span></div>
             </div>
             <div class="box" >
                 <h2>python</h2>
-                <div data-progress="80%"><span style="width: 80%;" ></span></div>
+                <div class="skill" ><span data-progress="80%" ></span></div>
             </div>
             
         </div>
@@ -617,10 +618,10 @@
         <img src="images/events.png" alt="">
         <div class="contents">
             <div class="time">
-                <div class="box"><span>22</span> <div >days</div></div>
-                <div class="box"><span>34</span> <div >hours</div></div>
-                <div class="box"><span>33</span> <div >minutes</div></div>
-                <div class="box"><span>22</span><div >seconds</div> </div>
+                <div class="box"><span id="days">265</span> <div >days</div></div>
+                <div class="box"><span id="hours">23</span> <div >hours</div></div>
+                <div class="box"><span id="minutes">59</span> <div >minutes</div></div>
+                <div class="box"><span id="seconds">59</span><div >seconds</div> </div>
             </div>
             <h1>Tech Masters Event 2021</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -810,5 +811,6 @@
     </div>
     <div class="copywriter">Made by Mohammed Saad</div>
 </footer>
+<script src="Js/main.js"></script>
 </body>
 </html>
